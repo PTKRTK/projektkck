@@ -196,6 +196,10 @@ namespace ZajebistyProjekciktylkozeterazzKCK
             MoveLines(speed, Line_r1_2);
             MoveLines(speed, Line_r1_3);
             MoveLines(speed, Line_r1_4);
+            MoveLines(speed, Line_r2_1);
+            MoveLines(speed, Line_r2_2);
+            MoveLines(speed, Line_r2_3);
+            MoveLines(speed, Line_r2_4);
 
 
         }
@@ -273,6 +277,11 @@ namespace ZajebistyProjekciktylkozeterazzKCK
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mk4_Click(object sender, EventArgs e)
         {
 
         }

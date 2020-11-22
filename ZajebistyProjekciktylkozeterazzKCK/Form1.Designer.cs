@@ -84,6 +84,14 @@
             this.Line_r1_3 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.Line_r1_4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.Line_r2_1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.Line_r2_2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.Line_r2_3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.Line_r2_4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Line4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Line3)).BeginInit();
             this.Line3.SuspendLayout();
@@ -148,6 +156,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Line_r1_4)).BeginInit();
             this.Line_r1_4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Line_r2_1)).BeginInit();
+            this.Line_r2_1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Line_r2_2)).BeginInit();
+            this.Line_r2_2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Line_r2_3)).BeginInit();
+            this.Line_r2_3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Line_r2_4)).BeginInit();
+            this.Line_r2_4.SuspendLayout();
             this.SuspendLayout();
             // 
             // Line4
@@ -209,7 +229,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.White;
-            this.pictureBox6.Location = new System.Drawing.Point(956, -1);
+            this.pictureBox6.Location = new System.Drawing.Point(947, -38);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(10, 1266);
@@ -367,10 +387,10 @@
             // Line5
             // 
             this.Line5.BackColor = System.Drawing.Color.White;
-            this.Line5.Location = new System.Drawing.Point(635, 785);
+            this.Line5.Location = new System.Drawing.Point(635, 820);
             this.Line5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line5.Name = "Line5";
-            this.Line5.Size = new System.Drawing.Size(15, 220);
+            this.Line5.Size = new System.Drawing.Size(15, 200);
             this.Line5.TabIndex = 0;
             this.Line5.TabStop = false;
             this.Line5.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -389,10 +409,10 @@
             // 
             this.Line6.BackColor = System.Drawing.Color.White;
             this.Line6.Controls.Add(this.pictureBox7);
-            this.Line6.Location = new System.Drawing.Point(635, 535);
+            this.Line6.Location = new System.Drawing.Point(635, 580);
             this.Line6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line6.Name = "Line6";
-            this.Line6.Size = new System.Drawing.Size(15, 220);
+            this.Line6.Size = new System.Drawing.Size(15, 200);
             this.Line6.TabIndex = 0;
             this.Line6.TabStop = false;
             this.Line6.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -411,10 +431,10 @@
             // 
             this.Line7.BackColor = System.Drawing.Color.White;
             this.Line7.Controls.Add(this.pictureBox9);
-            this.Line7.Location = new System.Drawing.Point(635, 277);
+            this.Line7.Location = new System.Drawing.Point(635, 340);
             this.Line7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line7.Name = "Line7";
-            this.Line7.Size = new System.Drawing.Size(15, 220);
+            this.Line7.Size = new System.Drawing.Size(15, 200);
             this.Line7.TabIndex = 0;
             this.Line7.TabStop = false;
             this.Line7.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -433,10 +453,10 @@
             // 
             this.Line8.BackColor = System.Drawing.Color.White;
             this.Line8.Controls.Add(this.pictureBox11);
-            this.Line8.Location = new System.Drawing.Point(635, 22);
+            this.Line8.Location = new System.Drawing.Point(635, 100);
             this.Line8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line8.Name = "Line8";
-            this.Line8.Size = new System.Drawing.Size(15, 220);
+            this.Line8.Size = new System.Drawing.Size(15, 200);
             this.Line8.TabIndex = 0;
             this.Line8.TabStop = false;
             this.Line8.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -455,10 +475,10 @@
             // 
             this.Line9.BackColor = System.Drawing.Color.White;
             this.Line9.Controls.Add(this.pictureBox13);
-            this.Line9.Location = new System.Drawing.Point(1271, 785);
+            this.Line9.Location = new System.Drawing.Point(1271, 820);
             this.Line9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line9.Name = "Line9";
-            this.Line9.Size = new System.Drawing.Size(15, 220);
+            this.Line9.Size = new System.Drawing.Size(15, 200);
             this.Line9.TabIndex = 0;
             this.Line9.TabStop = false;
             this.Line9.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -477,10 +497,10 @@
             // 
             this.Line13.BackColor = System.Drawing.Color.White;
             this.Line13.Controls.Add(this.pictureBox15);
-            this.Line13.Location = new System.Drawing.Point(1608, 785);
+            this.Line13.Location = new System.Drawing.Point(1608, 820);
             this.Line13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line13.Name = "Line13";
-            this.Line13.Size = new System.Drawing.Size(15, 220);
+            this.Line13.Size = new System.Drawing.Size(15, 200);
             this.Line13.TabIndex = 0;
             this.Line13.TabStop = false;
             this.Line13.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -499,10 +519,10 @@
             // 
             this.Line10.BackColor = System.Drawing.Color.White;
             this.Line10.Controls.Add(this.pictureBox17);
-            this.Line10.Location = new System.Drawing.Point(1271, 535);
+            this.Line10.Location = new System.Drawing.Point(1271, 580);
             this.Line10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line10.Name = "Line10";
-            this.Line10.Size = new System.Drawing.Size(15, 220);
+            this.Line10.Size = new System.Drawing.Size(15, 200);
             this.Line10.TabIndex = 0;
             this.Line10.TabStop = false;
             this.Line10.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -521,10 +541,10 @@
             // 
             this.Line11.BackColor = System.Drawing.Color.White;
             this.Line11.Controls.Add(this.pictureBox19);
-            this.Line11.Location = new System.Drawing.Point(1271, 277);
+            this.Line11.Location = new System.Drawing.Point(1271, 340);
             this.Line11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line11.Name = "Line11";
-            this.Line11.Size = new System.Drawing.Size(15, 220);
+            this.Line11.Size = new System.Drawing.Size(15, 200);
             this.Line11.TabIndex = 0;
             this.Line11.TabStop = false;
             this.Line11.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -543,10 +563,10 @@
             // 
             this.Line12.BackColor = System.Drawing.Color.White;
             this.Line12.Controls.Add(this.pictureBox21);
-            this.Line12.Location = new System.Drawing.Point(1271, 22);
+            this.Line12.Location = new System.Drawing.Point(1271, 100);
             this.Line12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line12.Name = "Line12";
-            this.Line12.Size = new System.Drawing.Size(15, 220);
+            this.Line12.Size = new System.Drawing.Size(15, 200);
             this.Line12.TabIndex = 0;
             this.Line12.TabStop = false;
             this.Line12.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -565,10 +585,10 @@
             // 
             this.Line14.BackColor = System.Drawing.Color.White;
             this.Line14.Controls.Add(this.pictureBox23);
-            this.Line14.Location = new System.Drawing.Point(1608, 535);
+            this.Line14.Location = new System.Drawing.Point(1608, 580);
             this.Line14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line14.Name = "Line14";
-            this.Line14.Size = new System.Drawing.Size(15, 220);
+            this.Line14.Size = new System.Drawing.Size(15, 200);
             this.Line14.TabIndex = 0;
             this.Line14.TabStop = false;
             this.Line14.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -587,10 +607,10 @@
             // 
             this.Line15.BackColor = System.Drawing.Color.White;
             this.Line15.Controls.Add(this.pictureBox25);
-            this.Line15.Location = new System.Drawing.Point(1608, 277);
+            this.Line15.Location = new System.Drawing.Point(1608, 340);
             this.Line15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line15.Name = "Line15";
-            this.Line15.Size = new System.Drawing.Size(15, 220);
+            this.Line15.Size = new System.Drawing.Size(15, 200);
             this.Line15.TabIndex = 0;
             this.Line15.TabStop = false;
             this.Line15.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -609,10 +629,10 @@
             // 
             this.Line16.BackColor = System.Drawing.Color.White;
             this.Line16.Controls.Add(this.pictureBox27);
-            this.Line16.Location = new System.Drawing.Point(1608, 22);
+            this.Line16.Location = new System.Drawing.Point(1608, 100);
             this.Line16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Line16.Name = "Line16";
-            this.Line16.Size = new System.Drawing.Size(15, 220);
+            this.Line16.Size = new System.Drawing.Size(15, 200);
             this.Line16.TabIndex = 0;
             this.Line16.TabStop = false;
             this.Line16.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -636,6 +656,7 @@
             this.mk4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.mk4.TabIndex = 9;
             this.mk4.TabStop = false;
+            this.mk4.Click += new System.EventHandler(this.mk4_Click);
             // 
             // pictureBox3
             // 
@@ -725,12 +746,104 @@
             this.Line_r1_4.TabStop = false;
             this.Line_r1_4.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // pictureBox14
+            // 
+            this.pictureBox14.BackColor = System.Drawing.Color.White;
+            this.pictureBox14.Location = new System.Drawing.Point(37, 8);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(10, 76);
+            this.pictureBox14.TabIndex = 0;
+            this.pictureBox14.TabStop = false;
+            // 
+            // Line_r2_1
+            // 
+            this.Line_r2_1.BackColor = System.Drawing.Color.White;
+            this.Line_r2_1.Controls.Add(this.pictureBox14);
+            this.Line_r2_1.Location = new System.Drawing.Point(635, -140);
+            this.Line_r2_1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Line_r2_1.Name = "Line_r2_1";
+            this.Line_r2_1.Size = new System.Drawing.Size(15, 200);
+            this.Line_r2_1.TabIndex = 0;
+            this.Line_r2_1.TabStop = false;
+            this.Line_r2_1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackColor = System.Drawing.Color.White;
+            this.pictureBox18.Location = new System.Drawing.Point(37, 8);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(10, 76);
+            this.pictureBox18.TabIndex = 0;
+            this.pictureBox18.TabStop = false;
+            // 
+            // Line_r2_2
+            // 
+            this.Line_r2_2.BackColor = System.Drawing.Color.White;
+            this.Line_r2_2.Controls.Add(this.pictureBox18);
+            this.Line_r2_2.Location = new System.Drawing.Point(635, -380);
+            this.Line_r2_2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Line_r2_2.Name = "Line_r2_2";
+            this.Line_r2_2.Size = new System.Drawing.Size(15, 200);
+            this.Line_r2_2.TabIndex = 0;
+            this.Line_r2_2.TabStop = false;
+            this.Line_r2_2.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BackColor = System.Drawing.Color.White;
+            this.pictureBox22.Location = new System.Drawing.Point(37, 8);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(10, 76);
+            this.pictureBox22.TabIndex = 0;
+            this.pictureBox22.TabStop = false;
+            // 
+            // Line_r2_3
+            // 
+            this.Line_r2_3.BackColor = System.Drawing.Color.White;
+            this.Line_r2_3.Controls.Add(this.pictureBox22);
+            this.Line_r2_3.Location = new System.Drawing.Point(635, -620);
+            this.Line_r2_3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Line_r2_3.Name = "Line_r2_3";
+            this.Line_r2_3.Size = new System.Drawing.Size(15, 200);
+            this.Line_r2_3.TabIndex = 0;
+            this.Line_r2_3.TabStop = false;
+            this.Line_r2_3.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.BackColor = System.Drawing.Color.White;
+            this.pictureBox26.Location = new System.Drawing.Point(37, 8);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(10, 76);
+            this.pictureBox26.TabIndex = 0;
+            this.pictureBox26.TabStop = false;
+            // 
+            // Line_r2_4
+            // 
+            this.Line_r2_4.BackColor = System.Drawing.Color.White;
+            this.Line_r2_4.Controls.Add(this.pictureBox26);
+            this.Line_r2_4.Location = new System.Drawing.Point(635, -860);
+            this.Line_r2_4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Line_r2_4.Name = "Line_r2_4";
+            this.Line_r2_4.Size = new System.Drawing.Size(15, 200);
+            this.Line_r2_4.TabIndex = 0;
+            this.Line_r2_4.TabStop = false;
+            this.Line_r2_4.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(1908, 1013);
+            this.Controls.Add(this.Line_r2_4);
+            this.Controls.Add(this.Line_r2_3);
+            this.Controls.Add(this.Line_r2_2);
+            this.Controls.Add(this.Line_r2_1);
             this.Controls.Add(this.Line_r1_4);
             this.Controls.Add(this.Line_r1_3);
             this.Controls.Add(this.Line_r1_2);
@@ -839,6 +952,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Line_r1_4)).EndInit();
             this.Line_r1_4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Line_r2_1)).EndInit();
+            this.Line_r2_1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Line_r2_2)).EndInit();
+            this.Line_r2_2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Line_r2_3)).EndInit();
+            this.Line_r2_3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Line_r2_4)).EndInit();
+            this.Line_r2_4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -900,6 +1025,14 @@
         private System.Windows.Forms.PictureBox Line_r1_3;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox Line_r1_4;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox Line_r2_1;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox Line_r2_2;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox Line_r2_3;
+        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.PictureBox Line_r2_4;
     }
 }
 
