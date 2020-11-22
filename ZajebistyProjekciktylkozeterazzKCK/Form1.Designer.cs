@@ -323,7 +323,7 @@
             // coin3
             // 
             this.coin3.BackColor = System.Drawing.Color.Orange;
-            this.coin3.Location = new System.Drawing.Point(433, 448);
+            this.coin3.Location = new System.Drawing.Point(435, 422);
             this.coin3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.coin3.Name = "coin3";
             this.coin3.Size = new System.Drawing.Size(22, 25);
