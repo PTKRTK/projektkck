@@ -276,5 +276,8 @@ namespace ZajebistyProjekciktylkozeterazzKCK
         {
 
         }
+
+
+        int SIEMA = 0;
     }
 }
